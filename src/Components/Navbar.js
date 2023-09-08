@@ -6,7 +6,7 @@ import Log from "../project-img/img1.png";
 export default function Navbar() {
   return (
     <main>
-      <nav className="container mx-auto px-2">
+      <nav className="container mx-auto px-2 sm: text-3xl font bold ">
         <div className="  flex sm:justify-between sm:mt-[7px] ">
           <div className="sm:ml-[5px]">
             <img src={Log} alt="logo-imge" />
