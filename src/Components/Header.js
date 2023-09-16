@@ -1,5 +1,9 @@
 import landingPage from "../project-img/img2.png";
 
+import flipCart from "../project-img/img3.png";
+import amazon from "../project-img/img4.png"
+
+
 export default function Header() {
   return (
     <header>
@@ -10,11 +14,23 @@ export default function Header() {
           <button className="text-[24px] sm:leading-[29.05px] inline bg-[red] gap-[10px] px-2 py-1 rounded  ">Shop Now</button>
           
         <button className="sm:ml-[24px] w-[118px] sm:leading-[29.05px] border-[2px]  px-2 py-1 rounded  ">Category</button>
+        <br/>
+
+        <p>Also Available On</p>
         </div>
         <img className="w-[530px]" src={landingPage} alt="landing_img" />
       
       </section>
+      <section className="continer max-auto gap-2 sm:ml-[30px] mt-[10px]">
+
+        <div className="sm:flex  mb-[10px]">
+
+          <img className="w-[32px] h-[32px]" src ={flipCart} alt="flipCart" />
+          <img className="ml-[10px] w-[32px] h-[32px]"  src ={amazon} alt="flipCart" />
+        </div>
+      </section>
      
     </header>
   );
-}
+}ls
+
